@@ -72,3 +72,48 @@ Non-functional requirements specify *how* the system performs its tasks rather t
 - System should ensure data consistency between master and slave databases.
 - The application should be highly available and fault-tolerant, using services like load balancers, CDN, and message queues.
 
+## Use Case Diagrams
+
+Use Case Diagrams are visual representations of the interactions between users (actors) and a system. They help in identifying system functionality, understanding user requirements, and simplifying communication between stakeholders and developers.
+
+### Benefits of Use Case Diagrams:
+- Clearly define system boundaries and user roles.
+- Provide a high-level view of system functionality.
+- Simplify complex requirements into manageable components.
+- Aid communication with non-technical stakeholders.
+
+### Use Case Diagram
+
+The diagram below represents a basic use case model for the hotel booking platform, involving both **Customers** and **Hotel Managers** as primary actors.
+
+![alx-booking-uc png](https://github.com/user-attachments/assets/031e789e-20da-42e5-b9b3-25c4029b3987)
+
+
+## Acceptance Criteria
+
+**Acceptance Criteria** are a set of conditions that a software product must satisfy to be accepted by a user, customer, or other stakeholders. They are used to confirm when a user story or feature is complete and working as intended.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Clarity**: They define exactly what needs to be done for a feature to be considered complete, reducing ambiguity.
+- **Alignment**: Ensure that developers, testers, and stakeholders are all on the same page.
+- **Testability**: Serve as the basis for writing test cases, ensuring that the implementation can be verified.
+- **Scope Control**: Help prevent scope creep by clearly outlining what is and isn’t included in a feature.
+
+### Example: Acceptance Criteria for the Checkout Feature
+
+Feature: **Hotel Booking Checkout**
+
+**Given** a user has selected a hotel and filled in the booking details,  
+**When** they proceed to checkout,  
+**Then** the system should:
+
+1. Validate that all required fields (guest info, dates, payment method) are filled.
+2. Display a booking summary with price breakdown and cancellation policy.
+3. Allow the user to confirm the booking and proceed to payment.
+4. Process the payment using an integrated third-party payment service.
+5. On successful payment, generate a booking ID and display confirmation.
+6. Send a confirmation email and/or in-app notification to the customer.
+7. Update the hotel’s availability in real-time.
+
+
