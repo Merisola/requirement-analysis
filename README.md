@@ -87,7 +87,7 @@ Use Case Diagrams are visual representations of the interactions between users (
 The diagram below represents a basic use case model for the hotel booking platform, involving both **Customers** and **Hotel Managers** as primary actors.
 
 
-![alx-booking-uc](https://github.com/user-attachments/assets/1d094afe-acd1-43a5-b433-08cfab909d2a)
+![Booking System Use Case Diagram](./alx-booking-uc.png)
 
 
 ## Acceptance Criteria
